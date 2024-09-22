@@ -24,9 +24,9 @@ const isValidBase64 = (str) => {
 
 app.post('/bfhl', upload.single('file'), (req, res) => {
     const { data, file_b64 } = req.body;
-    const userId = 'john_doe_17091999';
-    const email = 'john@xyz.com';
-    const rollNumber = 'ABCD123';
+    const userId = 'AKshar_kankar_13/01/2003';
+    const email = 'ar1684@srmist.edu.in';
+    const rollNumber = 'RA2111047010125';
 
     const numbers = [];
     const alphabets = [];
